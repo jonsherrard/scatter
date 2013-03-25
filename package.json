@@ -1,0 +1,45 @@
+{
+  "name": "scatter",
+  "preferGlobal": true,
+  "version": "0.0.1",
+  "author": "Jon Sherrard <j@andthats.it>",
+  "description": "Small scale mail shot generator",
+  "contributors": [
+    {
+      "name": "Jonathon Sherrard",
+      "email": "j@andthats.it"
+    }
+  ],
+  "main": "./lib/scatter",
+  "bin": {
+    "jott": "./bin/scatter"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonsherrard/scatter.git"
+  },
+  "keywords": [
+    "cli",
+    "jade",
+    "stylus",
+	"coffee-script",
+	"mailshot",
+	"node"
+  ],
+  "dependencies": {
+    "jade": "0.27.x",
+    "stylus": "0.28.2",
+    "walk": "2.2.1",
+    "fs-extra": "0.5.0",
+    "cli-prompt": "~0.1.0"
+  },
+  "devDependencies": {},
+  "bundledDependencies": [],
+  "license": {
+    "type" : "Unlicense",
+	"url" : "https://raw.github.com/jonsherrard/jott/master/UNLICENSE"
+  },
+  "engines": {
+    "node": ">=0.8.4"
+  }
+}
